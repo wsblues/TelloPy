@@ -55,7 +55,7 @@ $ python -m tellopy.examples.video_effect
   ```bash
   ImportError: /opt/ros/kinetic/lib/python2.7/dist-packages/cv2.so: undefined symbol: PyCObject_Type
   ```
-  이 경우, 아래참조
+  이 경우, 아래참조   
   https://github.com/wsblues/wsDeepDrone/wiki/DeepLearning-%ED%99%98%EA%B2%BD-%EC%85%8B%ED%8C%85#opencv-%EC%84%A4%EC%B9%98
   
 ### joystick_and_video
