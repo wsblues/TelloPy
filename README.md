@@ -58,3 +58,7 @@ You can use PS3/PS4/XONE joystick to controll Tello.
 $ pip install pygame
 $ python -m tellopy.examples.joystick_and_video
 ```
+
+### for SWARM  
+아래 참고   
+https://medium.com/@henrymound/adventures-with-dji-ryze-tello-controlling-a-tello-swarm-1bce7d4e045d
