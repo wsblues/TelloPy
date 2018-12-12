@@ -51,7 +51,7 @@ $ python -m tellopy.examples.video_effect
 ```
 ![photo](files/video_effect.jpg)
 
-* pip install av 설치 안되는 경우, 
+* pip install av 설치 안되는 경우, [참고](https://docs.mikeboers.com/pyav/develop/installation.html)
 ```bash   
 # Get PyAV from GitHub.   
 $ git clone git@github.com:mikeboers/PyAV.git   
@@ -72,8 +72,6 @@ $ make
 $ python setup.py build_ext --inplace   
 ```   
 Note: 위 방법으로 설치하였을 경우, 미리 셋팅되어있는 가상환경에 설치되므로, tellopy를 해당 가상환경에서 운용해야 함.   
-
-[참고](https://docs.mikeboers.com/pyav/develop/installation.html)
 
 * ffmpeg을 별도로 설치하고 싶은 경우, [여기](http://tipsonubuntu.com/2016/11/02/install-ffmpeg-3-2-via-ppa-ubuntu-16-04/) 참고   
 
