@@ -74,9 +74,9 @@ $ python setup.py build_ext --inplace
 [참고](https://docs.mikeboers.com/pyav/develop/installation.html)
 
 * 파이쎤3.x를 사용하는 경우 ROS와 opencv 연동문제로 다음과 같은 문제 발생   
-  ```bash
-  ImportError: /opt/ros/kinetic/lib/python2.7/dist-packages/cv2.so: undefined symbol: PyCObject_Type
-  ```
+```bash
+ImportError: /opt/ros/kinetic/lib/python2.7/dist-packages/cv2.so: undefined symbol: PyCObject_Type
+```
   이 경우, 아래참조   
   https://github.com/wsblues/wsDeepDrone/wiki/DeepLearning-%ED%99%98%EA%B2%BD-%EC%85%8B%ED%8C%85#opencv-%EC%84%A4%EC%B9%98
   
@@ -88,7 +88,7 @@ $ pip install pygame
 $ python -m tellopy.examples.joystick_and_video
 ```
 
-### for SWARM using built-in wifi and additional usb wifi adapter
+## for SWARM using built-in wifi and additional usb wifi adapter
 아래 참고   
 * https://medium.com/@henrymound/adventures-with-dji-ryze-tello-controlling-a-tello-swarm-1bce7d4e045d   
 * https://tellopilots.com/threads/tello-drone-swarm.288/
