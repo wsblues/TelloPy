@@ -73,6 +73,8 @@ $ python setup.py build_ext --inplace
 ```   
 [참고](https://docs.mikeboers.com/pyav/develop/installation.html)
 
+* ffmpeg을 별도로 설치하고 싶은 경우, [여기](http://tipsonubuntu.com/2016/11/02/install-ffmpeg-3-2-via-ppa-ubuntu-16-04/) 참고   
+
 * 파이쎤3.x를 사용하는 경우 ROS와 opencv 연동문제로 다음과 같은 문제 발생   
 ```bash
 ImportError: /opt/ros/kinetic/lib/python2.7/dist-packages/cv2.so: undefined symbol: PyCObject_Type
