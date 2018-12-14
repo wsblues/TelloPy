@@ -79,8 +79,8 @@ Note: 위 방법으로 설치하였을 경우, 미리 셋팅되어있는 가상�
 ```bash
 ImportError: /opt/ros/kinetic/lib/python2.7/dist-packages/cv2.so: undefined symbol: PyCObject_Type
 ```
-  이 경우, 아래참조   
-  https://github.com/wsblues/wsDeepDrone/wiki/DeepLearning-%ED%99%98%EA%B2%BD-%EC%85%8B%ED%8C%85#opencv-%EC%84%A4%EC%B9%98
+  이 경우, [여기](https://github.com/wsblues/wsDeepDrone/wiki/DeepLearning-%ED%99%98%EA%B2%BD-%EC%85%8B%ED%8C%85#opencv-%EC%84%A4%EC%B9%98) 참조   
+ 
   
 ### joystick_and_video
 You can use PS3/PS4/XONE joystick to controll Tello.
