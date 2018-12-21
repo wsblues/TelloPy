@@ -51,7 +51,8 @@ $ python -m tellopy.examples.video_effect
 ```
 ![photo](files/video_effect.jpg)
 
-* pip install av 설치 안되는 경우, 
+* pip install av 설치 안되는 경우,    
+
 ** 방법1)   
 ```bash
 sudo apt-get install -y python-dev pkg-config
