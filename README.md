@@ -64,7 +64,7 @@ pip install av
 ```
 Note : ffmpeg을 별도 설치해야 하는 경우, [여기](http://tipsonubuntu.com/2016/11/02/install-ffmpeg-3-2-via-ppa-ubuntu-16-04/) 참고  
 
-** 방법2)[참고](https://docs.mikeboers.com/pyav/develop/installation.html)
+** 방법2) 가상환경에서 셋팅 [참고](https://docs.mikeboers.com/pyav/develop/installation.html)
 ```bash   
 # Get PyAV from GitHub.   
 $ git clone git@github.com:mikeboers/PyAV.git   
