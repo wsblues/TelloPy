@@ -66,28 +66,8 @@ pip install av
 Note : ffmpeg을 별도 설치해야 하는 경우, [여기](http://tipsonubuntu.com/2016/11/02/install-ffmpeg-3-2-via-ppa-ubuntu-16-04/) 참고  
 
 ** 방법2) 가상환경에서 셋팅 [참고](https://docs.mikeboers.com/pyav/develop/installation.html)
-```bash   
-# Get PyAV from GitHub.   
-$ git clone git@github.com:mikeboers/PyAV.git   
-$ cd PyAV   
-   
-# Prep a virtualenv.   
-$ source scripts/activate.sh   
-   
-# Install basic requirements.   
-$ pip install -r tests/requirements.txt   
-   
-# Optionally build FFmpeg.   
-$ ./scripts/build-deps   
-   
-# Build PyAV.   
-$ make   
-# or   
-$ python setup.py build_ext --inplace   
-```   
-Note: 2) 방법으로 설치하였을 경우, 미리 셋팅되어있는 가상환경에 설치되므로, tellopy를 해당 가상환경(python3.5)에서 운용해야 함.    
-
-* 파이쎤3.x를 사용하는 경우 ROS와 opencv 연동문제로 다음과 같은 문제 발생   
+   Note: 2) 방법으로 설치하였을 경우, 미리 셋팅되어있는 가상환경에 설치되므로, tellopy를 해당 가상환경(python3.5)에서 운용해야 함.    
+   Note: 파이쎤3.x를 사용하는 경우 ROS와 opencv 연동문제로 다음과 같은 문제 발생   
 ```bash
 ImportError: /opt/ros/kinetic/lib/python2.7/dist-packages/cv2.so: undefined symbol: PyCObject_Type
 ```
