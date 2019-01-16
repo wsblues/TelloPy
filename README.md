@@ -49,7 +49,6 @@ $ pip install opencv-python
 $ pip install image
 $ python -m tellopy.examples.video_effect
 ```
-![photo](files/video_effect.jpg)
 
 * pip install av 설치 안되는 경우,    
 
